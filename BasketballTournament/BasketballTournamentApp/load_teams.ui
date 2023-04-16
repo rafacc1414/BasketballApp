@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>load_teams</class>
+ <widget class="QWidget" name="load_teams">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>526</width>
+    <height>195</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_search">
+     <item>
+      <widget class="QLabel" name="PathFileLabel">
+       <property name="text">
+        <string>Path File</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="PathFile"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="LoadButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(154, 203, 255);</string>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="ExitButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 73, 73);</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="NextButton">
+       <property name="styleSheet">
+        <string notr="true">selection-background-color: rgb(240, 255, 221);</string>
+       </property>
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
